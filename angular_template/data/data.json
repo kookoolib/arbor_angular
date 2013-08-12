@@ -1,0 +1,32 @@
+{
+"nodes":{
+        "main":{    "color":"#EEB211", 
+						"shape":"dot", 
+						"radius":39,
+						"label":"demouser",
+                        "alpha":1 },
+        "node1":{    "color":"#21526a", 
+                        "shape":"dot", 
+                        "radius":30, 
+                        "label":"Skill1",
+                        "alpha":1 },
+        "node2":{ "color":"#941e5e", 
+                        "shape":"dot",
+                        "radius":40,
+                        "label":"Skill2", 
+                        "alpha":1 },
+       "leaf1":{ "label":"agent 1", 
+                     "color":"#21526a", "alpha": 0 },    
+       "leaf2":{ "label":"agent 2", 
+                     "color":"#21526a", "alpha": 0 },      
+       "leaf3":{ "label":"agent 3", 
+                     "color":"#21526a", "alpha": 0 }
+      },
+      "edges":{
+        "main":{ "node1":{}, 
+              "node2":{}  
+        },
+        "node1":{ "leaf1":{}, "leaf2":{}},
+        "node2":{ "leaf3":{}}
+      }
+    }

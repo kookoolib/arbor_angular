@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" ng-app="phonecat">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+        <title>Cloudagent System Monitor</title>
+        <link rel="stylesheet" href="css/app.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <script type='text/javascript' src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/filters.js"></script>
+        <script src="js/services.js"></script>
+        <script src="js/directives.js"></script>
+        <script src="lib/angular/angular-resource.js"></script>
+        <script type="text/javascript" src="lib/jquery-ui-1.9.2.custom.min.js"></script>
+        <script language="javascript" type="text/javascript" src="lib/arbor.js"></script>
+		<script language="javascript" type="text/javascript" src="lib/arbor-tween.js"></script>
+		<script language="javascript" type="text/javascript" src="lib/graphics.js"></script>
+		<script language="javascript" type="text/javascript" src="lib/renderer.js"></script>
+		<script language="javascript">
+			
+			var colour = {
+      orange:"#EEB211",
+      darkblue:"#21526a",
+      purple:"#941e5e",
+      limegreen:"#c1d72e",
+      darkgreen:"#619b45",
+      lightblue:"#009fc3",
+      pink:"#d11b67",    
+    };
+    var sys = arbor.ParticleSystem();
+    
+		</script>
+
+    </head>
+    <body>
+
+        <div ng-view></div>
+    </body>
+</html>
