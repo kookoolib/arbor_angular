@@ -1,5 +1,10 @@
 arbor_angular
 =============
+Since we loved the cool way in which Arbor represented graph data, we could not wait to hook it up with Angular. 
+Because of Angular's two way data binding, when you hook up Angularjs with Arbor.js you can get a dynamically 
+visualization of graph data with cool animations. To give back to the community, we have put up the code here. 
+Basically we have created an Angularjs directive for Arborjs. 
+feel free to fork the code and add extensions and use it for your own visualizations.
 
 The code is self explanatory with comments inline. Best way to get started is to follow these steps:
 
